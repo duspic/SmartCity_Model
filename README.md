@@ -28,3 +28,7 @@ and here it is represented in an **ajdacency matrix**:
     [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 3, 0, 0, 2], # c2
     [5, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0], # s
     [3, 0, 5, 0, 0, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0], # k
+
+
+I've also made this graph in the following app, where I could test out if my Dijkstra implementation was correct
+http://graphonline.ru/en/?graph=FLrknpVUCFzBzCfH (graph might expire after some time, but isn't hard to recreate)
