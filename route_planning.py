@@ -1,7 +1,7 @@
-# Dijkstra's shortest route algo
+# Dijkstra's shortest route algorithm implementation, map idea and graph representation by I.Duspara
 
 
-# 01,02,03,04,05,06,07 - "obilaznica"
+# o1,o2,o3,o4,o5,o6,o7 - "obilaznica"
 # r1,r2,r3,r4 - "rotor"
 # c1,c2 - "cesta"
 # s - "seoska cesta"
@@ -121,9 +121,9 @@ def dijkstraShortestPath(beginning_node, end_node, graph=MAP_GRAPH):
 
 
     path = getPath(numFromName(end_node))
-    print(distances[numFromName(end_node)])
-    print(path)
+    print("distance:",distances[numFromName(end_node)])
+    print("path:",path)
     
-dijkstraShortestPath("r1","o2")
+
 
 
