@@ -29,6 +29,19 @@ and here it is represented in an **ajdacency matrix**:
      [5, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0], # s
      [3, 0, 5, 0, 0, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0], # k
 
+Since the map is represented as a graph, the route is chosen using Dijkstra's algorithm to make sure it's the shortest one.
 
 I've also made this graph in the following app, where I could test out if my Dijkstra implementation was correct
 http://graphonline.ru/en/?graph=FLrknpVUCFzBzCfH (graph might expire after some time, but isn't hard to recreate)
+
+
+
+_____________________________________________________________________________________________________
+### LOCATION SCHEME ###
+![location](https://user-images.githubusercontent.com/72471213/133565870-f7f3b358-3bf7-45f0-93a2-b3e16617bbc2.jpg)
+
+*l2j has been excluded, and left for an eventual upgrade*
+
+The Locator unit records the map overview, extract the position and ID of individual JetCars and sends it to the Server
+
+On the Server, the position is visualized over a top-down view of the map.
