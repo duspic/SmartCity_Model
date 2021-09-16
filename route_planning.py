@@ -127,3 +127,4 @@ def dijkstraShortestPath(beginning_node, end_node, graph=MAP_GRAPH):
 
 
 
+dijkstraShortestPath('r4','o3')

@@ -102,8 +102,8 @@ while True:
     x,y,ID = recieveMsg()
     marker,x,y = visualizeMarker(x,y,ID)
     
-    cv2.imshow("Map with marker(s):",MAP+marker)
-    cv2.waitKey()
-    
+    cv2.imshow("Map with marker(s):",marker+MAP)
+    cv2.waitKey(1)
+    print(x,y,end='\r')
 cv2.destroyAllWindows()
     
